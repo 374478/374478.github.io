@@ -219,6 +219,14 @@ body {
     }
 
     .wrapper > .second-row > p {
-        font-size: 1.75em;
+        font-size: 1em;
+    }
+
+    .wrapper > .third-row > h1 {
+        font-size: 4em;
+    }
+
+    .wrapper > .third-row > p {
+        font-size: 2em;
     }
 }
