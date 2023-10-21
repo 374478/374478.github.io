@@ -210,6 +210,10 @@ body {
 }
 
 @media (max-width: 960px) {
+    .wrapper > .header-bar > h1 {
+        font-size: 2em;
+    }
+
     .wrapper > .first-row > .hello > h1 {
         font-size: 3em;
     }
