@@ -39,6 +39,10 @@ body {
     font-size: 3em;
     color: white;
     font-family: 'Arvo', serif;
+    position: absolute;  /* Keeps it as absolute */
+    top: 60%;  /* Center it vertically */
+    left: 50%;  /* Center it horizontally */
+    transform: translate(-50%, -50%);  /* Adjust the position so it's perfectly centered */
 }
 
 .wrapper > .first-row {
@@ -211,7 +215,7 @@ body {
 
 @media (max-width: 960px) {
     .wrapper > .header-bar > h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     .wrapper > .first-row > .hello > h1 {
